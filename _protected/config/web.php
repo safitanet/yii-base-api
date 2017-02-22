@@ -4,14 +4,14 @@ $params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'basic',
-    'name' => 'BASIC',
-    'language' => 'en',
+    'name' => '',
+    'language' => 'es',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'app\components\Aliases'],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '0nlekFqwWTRPFD_CvDDM7ZVqDdWZTM6T',
+            'cookieValidationKey' => '0nlekFqwW23PFD_CvSDM7ZVqDdWZTM6T',
         ],
         // you can set your theme here - template comes with: 'light' and 'dark'
         'view' => [
